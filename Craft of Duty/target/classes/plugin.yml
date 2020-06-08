@@ -1,0 +1,12 @@
+name: Craft of Duty
+main: com.thenebula.craftofduty.CraftofDuty
+version: 0.1
+description: Craft of Duty plugin
+depend: [ProtocolLib, TabAPI]
+commands:
+  guns:
+    description: Guns plugin commands
+    usage: /guns [command]
+  cod:
+    description: CoD plugin commands
+    usage: /cod [command]

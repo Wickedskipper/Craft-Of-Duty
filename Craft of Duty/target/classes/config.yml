@@ -1,0 +1,23 @@
+# Game Mode
+#  -1 = Dev Mode (No Gamemodes No Lobby Just Test)
+#   0 = Free For All Mode
+#   1 = Team Death Match Mode
+gamemode: -1
+
+# MySQL database.
+# No description necessary.
+database:
+  host: 'REDACTED'
+  port: 3306
+  db: 'CraftOfDuty'
+  user: 'minecraft'
+  pass: 'hello'
+  
+#Maps Names
+map:
+  map0: strikezone
+  map1: hijacked
+  map2: favela
+  map3: raid
+  map4: carrier
+  time: 1
