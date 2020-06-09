@@ -8,42 +8,18 @@
 	<packaging>jar</packaging>
 	<url>http://thenebulamc.com/</url>
 	<repositories>
-		<repository>
-			<id>bukkit-repo</id>
-			<url>http://repo.bukkit.org/content/groups/public/</url>
-		</repository>
-		<repository>
-			<id>comphenix-rep</id>
-			<name>Comphenix Repository</name>
-			<url>http://repo.comphenix.net/content/groups/public/</url>
-		</repository>
-		<repository>
-			<id>reosh-repo</id>
-			<name>Reosh Repository</name>
-			<url>http://play.thenebulamc.com:8080/archiva/repository/internal/</url>
-		</repository>
+	  <repository>
+  		<id>papermc</id>
+    	<url>https://papermc.io/repo/repository/maven-public/</url>
+  		</repository>
 	</repositories>
 	<dependencies>
-		<dependency>
-			<groupId>org.bukkit</groupId>
-			<artifactId>bukkit</artifactId>
-			<version>1.6.2-R0.1</version>
-		</dependency>
-		<dependency>
-			<groupId>org.bukkit</groupId>
-			<artifactId>craftbukkit</artifactId>
-			<version>1.6.2-R0.1</version>
-		</dependency>
-		<dependency>
-			<groupId>com.comphenix.protocol</groupId>
-			<artifactId>ProtocolLib</artifactId>
-			<version>2.7.0</version>
-		</dependency>
-		<dependency>
-			<groupId>org.mcsg.double0negative</groupId>
-			<artifactId>tabapi</artifactId>
-			<version>0.1.15</version>
-		</dependency>
+	  	<dependency>
+    		<groupId>com.destroystokyo.paper</groupId>
+    		<artifactId>paper-api</artifactId>
+    		<version>1.15.2-R0.1-SNAPSHOT</version>
+    		<scope>provided</scope>
+ 		</dependency>
 	</dependencies>
 	<build>
 		<defaultGoal>install</defaultGoal>
